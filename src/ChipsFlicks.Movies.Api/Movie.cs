@@ -2,4 +2,3 @@
 
 public record Movie(string Title, string Type, string Genre);
 
-public record Genre(string Title);

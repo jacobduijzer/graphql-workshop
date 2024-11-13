@@ -1,0 +1,77 @@
+[
+  {
+    "type": "movie",
+    "genre": "Science Fiction",
+    "snack": "Popcorn"
+  },
+  {
+    "type": "movie",
+    "genre": "Crime",
+    "snack": "Cannoli"
+  },
+  {
+    "type": "series",
+    "genre": "Thriller",
+    "snack": "Nachos"
+  },
+  {
+    "type": "movie",
+    "genre": "Action",
+    "snack": "Hot Dogs"
+  },
+  {
+    "type": "series",
+    "genre": "Horror",
+    "snack": "Candy"
+  },
+  {
+    "type": "movie",
+    "genre": "Drama",
+    "snack": "Pretzels"
+  },
+  {
+    "type": "series",
+    "genre": "Adventure",
+    "snack": "Trail Mix"
+  },
+  {
+    "type": "movie",
+    "genre": "Drama",
+    "snack": "Chips"
+  },
+  {
+    "type": "series",
+    "genre": "Fantasy",
+    "snack": "Dragon Fruit"
+  },
+  {
+    "type": "movie",
+    "genre": "Animation",
+    "snack": "Gummy Bears"
+  },
+  {
+    "type": "series",
+    "genre": "Historical",
+    "snack": "Borscht"
+  },
+  {
+    "type": "movie",
+    "genre": "Thriller",
+    "snack": "Kimchi"
+  },
+  {
+    "type": "series",
+    "genre": "Comedy",
+    "snack": "Pizza"
+  },
+  {
+    "type": "movie",
+    "genre": "Horror",
+    "snack": "Popcorn"
+  },
+  {
+    "type": "series",
+    "genre": "Documentary",
+    "snack": "Granola Bars"
+  }
+]
