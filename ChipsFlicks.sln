@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChipsFlicks.AppHost", "src\ChipsFlicks.AppHost\ChipsFlicks.AppHost.csproj", "{0656D38B-FB4F-468E-B30B-5CAF13F813EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChipsFlicks.ServiceDefaults", "src\ChipsFlicks.ServiceDefaults\ChipsFlicks.ServiceDefaults.csproj", "{26162E33-4779-44B4-BE84-D8267A23C366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChipsFlicks.Movies.Api", "src\ChipsFlicks.Movies.Api\ChipsFlicks.Movies.Api.csproj", "{C4A43C96-2227-4462-93A9-07D013247D91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChipsFlicks.Snacks.Api", "src\ChipsFlicks.Snacks.Api\ChipsFlicks.Snacks.Api.csproj", "{015B0233-93EA-40DD-91A8-042017BEFBE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChipsFlicks.Hub.Api", "src\ChipsFlicks.Hub.Api\ChipsFlicks.Hub.Api.csproj", "{46557322-B08C-40E2-956B-98829A172536}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02DA2825-DDAD-470E-BB03-74A1BC562494}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0656D38B-FB4F-468E-B30B-5CAF13F813EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0656D38B-FB4F-468E-B30B-5CAF13F813EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0656D38B-FB4F-468E-B30B-5CAF13F813EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0656D38B-FB4F-468E-B30B-5CAF13F813EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26162E33-4779-44B4-BE84-D8267A23C366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26162E33-4779-44B4-BE84-D8267A23C366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26162E33-4779-44B4-BE84-D8267A23C366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26162E33-4779-44B4-BE84-D8267A23C366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A43C96-2227-4462-93A9-07D013247D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A43C96-2227-4462-93A9-07D013247D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A43C96-2227-4462-93A9-07D013247D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A43C96-2227-4462-93A9-07D013247D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015B0233-93EA-40DD-91A8-042017BEFBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015B0233-93EA-40DD-91A8-042017BEFBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015B0233-93EA-40DD-91A8-042017BEFBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015B0233-93EA-40DD-91A8-042017BEFBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46557322-B08C-40E2-956B-98829A172536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46557322-B08C-40E2-956B-98829A172536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46557322-B08C-40E2-956B-98829A172536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46557322-B08C-40E2-956B-98829A172536}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

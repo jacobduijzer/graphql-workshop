@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Inception",
+    "type": "movie",
+    "genre": "Science Fiction"
+  },
+  {
+    "title": "The Godfather",
+    "type": "movie",
+    "genre": "Crime"
+  },
+  {
+    "title": "Breaking Bad",
+    "type": "series",
+    "genre": "Thriller"
+  },
+  {
+    "title": "The Dark Knight",
+    "type": "movie",
+    "genre": "Action"
+  },
+  {
+    "title": "Stranger Things",
+    "type": "series",
+    "genre": "Horror"
+  },
+  {
+    "title": "Schindler's List",
+    "type": "movie",
+    "genre": "Drama"
+  },
+  {
+    "title": "The Mandalorian",
+    "type": "series",
+    "genre": "Adventure"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "type": "movie",
+    "genre": "Drama"
+  },
+  {
+    "title": "The Witcher",
+    "type": "series",
+    "genre": "Fantasy"
+  },
+  {
+    "title": "Toy Story",
+    "type": "movie",
+    "genre": "Animation"
+  },
+  {
+    "title": "Chernobyl",
+    "type": "series",
+    "genre": "Historical"
+  },
+  {
+    "title": "Parasite",
+    "type": "movie",
+    "genre": "Thriller"
+  },
+  {
+    "title": "Friends",
+    "type": "series",
+    "genre": "Comedy"
+  },
+  {
+    "title": "Get Out",
+    "type": "movie",
+    "genre": "Horror"
+  },
+  {
+    "title": "Planet Earth",
+    "type": "series",
+    "genre": "Documentary"
+  }
+]
