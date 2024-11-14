@@ -6,10 +6,16 @@ public class MovieType : ObjectType<Movie>
     {
         descriptor
             .Field(p => p.SnackRecommendation)
-            .Resolve(context =>
+            .Resolve(async context =>
             {
                 var movie = context.Parent<Movie>();
-                return context.Service<ISnacksApi>().Recommendation(movie.Type, movie.Genre);
+                
+                // Not using a data loader
+                return await context.Service<ISnacksApi>().Recommendation(movie.Type, movie.Genre);
+                
+                // Using a data loader
+                // var snackRecommendation = await context.Service<SnackDataLoader>().LoadAsync((movie.Type, movie.Genre));
+                // return snackRecommendation;
             });
     }
 }

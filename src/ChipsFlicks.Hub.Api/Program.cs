@@ -13,6 +13,7 @@ builder.Services
         config.BaseAddress = new Uri("https+http://snacks"));
 builder.Services
     .AddGraphQLServer()
+    // .AddDataLoader<SnackDataLoader>()
     .AddType<MovieType>()
     .AddQueryType<AllQueries>();
 

@@ -6,4 +6,7 @@ public interface ISnacksApi
 {
     [Get("/?type={type}&genre={genre}")]
     Task<string> Recommendation(string type, string genre);
+    
+    [Post("/batch")]
+    Task<IEnumerable<SnackRecommendation>> Batch([Body]List<SnackRecommendationRequest> requests);
 }
