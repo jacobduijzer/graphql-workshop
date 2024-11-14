@@ -11,14 +11,10 @@ builder.Services
     .AddRefitClient<ISnacksApi>()
     .ConfigureHttpClient(config =>
         config.BaseAddress = new Uri("https+http://snacks"));
+builder.Services
+    .AddGraphQLServer()
+    .AddQueryType<AllQueries>();
 
 var app = builder.Build();
-app.UseSwaggerWithUi();
-
-app.MapGet("/movies", async (IMoviesApi movies) =>
-    await movies.All()).WithName("Get movies");
-
-app.MapGet("/snack", async (ISnacksApi snacks) =>
-    await snacks.Recommendation("movie", "Thriller")).WithName("Snack recommendation");
-
+app.MapGraphQL();
 app.Run();
