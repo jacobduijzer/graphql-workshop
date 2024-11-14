@@ -12,6 +12,10 @@ builder.Services
     .ConfigureHttpClient(config =>
         config.BaseAddress = new Uri("https+http://snacks"));
 builder.Services
+    .AddRefitClient<ISnacksApi>()
+    .ConfigureHttpClient(config =>
+        config.BaseAddress = new Uri("https+http://snacks"));
+builder.Services
     .AddGraphQLServer()
     // .AddDataLoader<SnackDataLoader>()
     .AddType<MovieType>()

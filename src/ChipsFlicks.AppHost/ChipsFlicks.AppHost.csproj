@@ -11,11 +11,13 @@
 
     <ItemGroup>
         <PackageReference Include="Aspire.Hosting.AppHost" Version="8.2.1"/>
+        <PackageReference Include="Aspire.Hosting.Redis" Version="9.0.0" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\ChipsFlicks.Hub.Api\ChipsFlicks.Hub.Api.csproj" />
       <ProjectReference Include="..\ChipsFlicks.Movies.Api\ChipsFlicks.Movies.Api.csproj" />
+      <ProjectReference Include="..\ChipsFlicks.Reviews.Api\ChipsFlicks.Reviews.Api.csproj" />
       <ProjectReference Include="..\ChipsFlicks.Snacks.Api\ChipsFlicks.Snacks.Api.csproj" />
     </ItemGroup>
 

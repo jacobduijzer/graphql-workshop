@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Inception",
+    "reviewer": "John Doe",
+    "content": "Amazing movie!",
+    "rating": 5
+  },
+  {
+    "title": "Inception",
+    "reviewer": "Jane Smith",
+    "content": "Loved the plot and characters.",
+    "rating": 4
+  },
+  {
+    "title": "The Godfather",
+    "reviewer": "Alice Johnson",
+    "content": "A classic masterpiece.",
+    "rating": 5
+  },
+  {
+    "title": "Breaking Bad",
+    "reviewer": "Bob Brown",
+    "content": "Intense and thrilling.",
+    "rating": 4
+  },
+  {
+    "title": "Breaking Bad",
+    "reviewer": "Charlie Davis",
+    "content": "Great series!",
+    "rating": 5
+  },
+  {
+    "title": "The Dark Knight",
+    "reviewer": "David Evans",
+    "content": "Best superhero movie ever.",
+    "rating": 5
+  },
+  {
+    "title": "The Dark Knight",
+    "reviewer": "Eve Foster",
+    "content": "Fantastic action scenes.",
+    "rating": 4
+  },
+  {
+    "title": "Stranger Things",
+    "reviewer": "Frank Green",
+    "content": "Scary and exciting.",
+    "rating": 4
+  },
+  {
+    "title": "Schindler's List",
+    "reviewer": "Grace Harris",
+    "content": "Heartbreaking and powerful.",
+    "rating": 5
+  },
+  {
+    "title": "The Mandalorian",
+    "reviewer": "Hank Irving",
+    "content": "A great adventure.",
+    "rating": 4
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "reviewer": "Ivy Johnson",
+    "content": "Inspiring and uplifting.",
+    "rating": 5
+  },
+  {
+    "title": "The Witcher",
+    "reviewer": "Jack King",
+    "content": "Fantastic fantasy series.",
+    "rating": 4
+  },
+  {
+    "title": "Toy Story",
+    "reviewer": "Karen Lee",
+    "content": "Fun for the whole family.",
+    "rating": 4
+  },
+  {
+    "title": "Chernobyl",
+    "reviewer": "Larry Miller",
+    "content": "Very informative.",
+    "rating": 5
+  },
+  {
+    "title": "Parasite",
+    "reviewer": "Mona Nelson",
+    "content": "A thrilling ride.",
+    "rating": 4
+  },
+  {
+    "title": "Friends",
+    "reviewer": "Nina Owens",
+    "content": "Hilarious and heartwarming.",
+    "rating": 5
+  },
+  {
+    "title": "Get Out",
+    "reviewer": "Oscar Perez",
+    "content": "A modern horror classic.",
+    "rating": 4
+  },
+  {
+    "title": "Planet Earth",
+    "reviewer": "Paul Quinn",
+    "content": "Beautifully shot.",
+    "rating": 5
+  }
+]
