@@ -9,7 +9,7 @@ public class CacheFeeder(IDistributedCache cache, JsonSerializerOptions jsonSeri
     public async Task Feed()
     {
         var path = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location)!;
-        var jsonData = File.ReadAllText(Path.Combine(path, "reviews.json"));
+        var jsonData = await File.ReadAllTextAsync(Path.Combine(path, "reviews.json"));
         var reviews = JsonSerializer.Deserialize<IEnumerable<Review>>(jsonData, jsonSerializerOptions)!;
         var cachedReviews = reviews
             .GroupBy(r => r.Title)

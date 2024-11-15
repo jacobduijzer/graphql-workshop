@@ -12,14 +12,16 @@ builder.Services
     .ConfigureHttpClient(config =>
         config.BaseAddress = new Uri("https+http://snacks"));
 builder.Services
-    .AddRefitClient<ISnacksApi>()
+    .AddRefitClient<IReviewsApi>()
     .ConfigureHttpClient(config =>
-        config.BaseAddress = new Uri("https+http://snacks"));
+        config.BaseAddress = new Uri("https+http://reviews"));
 builder.Services
     .AddGraphQLServer()
-    // .AddDataLoader<SnackDataLoader>()
+    .AddDataLoader<SnackDataLoader>()
+    .AddDataLoader<ReviewsDataLoader>()
     .AddType<MovieType>()
-    .AddQueryType<AllQueries>();
+    .AddQueryType<AllQueries>()
+    .AddMutationType<Mutations>();
 
 var app = builder.Build();
 app.MapGraphQL();
