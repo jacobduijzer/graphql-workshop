@@ -11,7 +11,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="Aspire.RabbitMQ.Client" Version="9.0.0" />
       <PackageReference Include="HotChocolate.AspNetCore" Version="14.1.0" />
+      <PackageReference Include="HotChocolate.Subscriptions.RabbitMQ" Version="14.1.0" />
       <PackageReference Include="Refit.HttpClientFactory" Version="8.0.0" />
     </ItemGroup>
 
