@@ -15,4 +15,6 @@ public class AllQueries
 
     public async Task<string> Recommendation([Service] ISnacksApi snacks, string type, string genre) =>
         await snacks.Recommendation(type, genre);
+    
+    public async Task<IEnumerable<Review>> Reviews([Service] IReviewsApi reviews, string title) => await reviews.ByTitle(title);
 }
