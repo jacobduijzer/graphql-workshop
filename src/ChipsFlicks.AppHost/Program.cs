@@ -1,4 +1,5 @@
 var builder = DistributedApplication.CreateBuilder(args);
+
 var redis = builder.AddRedis("cache");
 var movies = builder.AddProject<Projects.ChipsFlicks_Movies_Api>("movies");
 var snacks = builder.AddProject<Projects.ChipsFlicks_Snacks_Api>("snacks");
