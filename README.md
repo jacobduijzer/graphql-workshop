@@ -50,3 +50,43 @@ This workshop is divided into multiple subjects, each with its own branch. The s
 - [Resolvers + Data Loaders](https://github.com/jacobduijzer/graphql-workshop/tree/resolvers)
 - [Mutations](https://github.com/jacobduijzer/graphql-workshop/tree/mutations)
 - [Subscriptions](https://github.com/jacobduijzer/graphql-workshop/tree/subscriptions)
+
+## Getting started
+
+This project uses [.NET Aspire](https://learn.microsoft.com/en-us/dotnet/aspire/). To start the project, start the ChipsFlicks.AppHost https project. This will start all the projects, including a dashboard.
+
+![Dashboard](./docs/assets/aspire-dashboard.png)
+
+## Basic Setup + REST
+
+
+
+## GraphQL Setup + Queries
+
+## Resolvers + Data Loaders
+
+## Mutations
+
+## Subscriptions
+
+```graphql
+mutation {
+  addBooking(booking:  {
+     title: "Inception",
+     numberOfPeople: 3,
+     eventDate: "2024-11-19"
+  })
+}
+```
+
+```graphql
+subscription {
+  bookingAdded {
+     bookingNumber
+     booking {
+      title
+     }
+  }
+}
+```
+
