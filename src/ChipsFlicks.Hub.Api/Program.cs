@@ -16,13 +16,21 @@ builder.Services
     .ConfigureHttpClient(config =>
         config.BaseAddress = new Uri("https+http://reviews"));
 builder.Services
+    .AddRefitClient<IBookingApi>()
+    .ConfigureHttpClient(config =>
+        config.BaseAddress = new Uri("https+http://bookings"));
+
+builder.Services
     .AddGraphQLServer()
     .AddDataLoader<SnackDataLoader>()
     .AddDataLoader<ReviewsDataLoader>()
     .AddType<MovieType>()
     .AddQueryType<AllQueries>()
-    .AddMutationType<Mutations>();
+    .AddMutationType<Mutations>()
+    .AddSubscriptionType<Subscriptions>()
+    .AddInMemorySubscriptions();
 
 var app = builder.Build();
 app.MapGraphQL();
+app.UseWebSockets();
 app.Run();
