@@ -183,8 +183,6 @@ N.B.: I had to downgrade to HotChocolate 13.9.14 to get stitching to work.
 
 N.B.: Subscriptions are not working yet with stitching (or: I didn't get it working).
 
-```csharp
-
 ```graphql
 {
     theaters {
