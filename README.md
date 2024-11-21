@@ -79,6 +79,7 @@ This workshop is divided into multiple subjects, each with its own branch. The s
 - [Resolvers + Data Loaders](https://github.com/jacobduijzer/graphql-workshop/tree/resolvers)
 - [Mutations](https://github.com/jacobduijzer/graphql-workshop/tree/mutations)
 - [Subscriptions](https://github.com/jacobduijzer/graphql-workshop/tree/subscriptions)
+- [Stitching](https://github.com/jacobduijzer/graphql-workshop/tree/stitching)
 
 ## Getting started
 
@@ -139,6 +140,20 @@ We will dive in this in the next branch, where we will implement resolvers and d
 
 ## Mutations
 
+```graphql
+mutation {
+  addReview(review:  {
+     content: "Nice movie",
+     rating: 4,
+     reviewer: "John Doe",
+     title: "Inception"
+  }) {
+    title
+    rating
+  }
+}
+```
+
 ## Subscriptions
 
 ```graphql
@@ -163,6 +178,12 @@ subscription {
 ```
 
 ## Stitching
+
+N.B.: I had to downgrade to HotChocolate 13.9.14 to get stitching to work.
+
+N.B.: Subscriptions are not working yet with stitching (or: I didn't get it working).
+
+```csharp
 
 ```graphql
 {

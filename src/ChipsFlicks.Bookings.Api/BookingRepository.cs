@@ -16,11 +16,10 @@ public class BookingRepository(IDistributedCache cache, JsonSerializerOptions js
             updatedCachedBookings = new CachedBookings(bookingResult.Booking.Title, [bookingResult]);
         else
         {
-            var cachedBookings =
-                JsonSerializer.Deserialize<CachedBookings>(Encoding.UTF8.GetString(cachedBooking),
-                    jsonSerializerOptions);
-            updatedCachedBookings =
-                new CachedBookings(bookingResult.Booking.Title, cachedBookings!.Bookings.Append(bookingResult));
+            var cachedBookings = JsonSerializer.Deserialize<CachedBookings>(Encoding.UTF8.GetString(cachedBooking), jsonSerializerOptions);
+            var bookingsList = cachedBookings?.Bookings?.ToList() ?? [];
+            bookingsList.Add(bookingResult);
+            updatedCachedBookings = new CachedBookings(bookingResult.Booking.Title, bookingsList);
         }
 
         await cache.SetAsync(bookingResult.Booking.Title,

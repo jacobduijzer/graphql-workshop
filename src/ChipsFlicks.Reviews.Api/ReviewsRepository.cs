@@ -26,7 +26,9 @@ public class ReviewsRepository(IDistributedCache cache, JsonSerializerOptions js
         else
         {
             var cachedReviews = JsonSerializer.Deserialize<CachedReview>(Encoding.UTF8.GetString(cachedReview), jsonSerializerOptions);
-            updatedCachedReview = new CachedReview(review.Title, cachedReviews!.Reviews.Append(review));
+            var reviews = cachedReviews?.Reviews?.ToList() ?? [];
+            reviews.Add(review);
+            updatedCachedReview = new CachedReview(review.Title, reviews);
         }
 
         await cache.SetAsync(review.Title,
