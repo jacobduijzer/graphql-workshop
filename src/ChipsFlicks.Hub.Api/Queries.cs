@@ -2,7 +2,7 @@
 
 public class AllQueries
 {
-    public async Task<IEnumerable<Movie>> All([Service] IMoviesApi movies) => await movies.All();
+    public async Task<IEnumerable<Movie>> Movies([Service] IMoviesApi movies) => await movies.All();
 
     public async Task<IEnumerable<string>> Genres([Service] IMoviesApi movies) => await movies.Genres();
 

@@ -16,8 +16,7 @@ builder.Services
     .ConfigureHttpClient(config => config.BaseAddress = new Uri("https+http://reviews"));
 builder.Services
     .AddRefitClient<IBookingApi>()
-    .ConfigureHttpClient(config =>
-        config.BaseAddress = new Uri("https+http://bookings"));
+    .ConfigureHttpClient(config => config.BaseAddress = new Uri("https+http://bookings"));
 
 builder.Services
     .AddGraphQLServer()

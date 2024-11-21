@@ -4,8 +4,8 @@
     "http": {
       "commandName": "Project",
       "dotnetRunMessages": true,
-      "launchBrowser": false,
-      "applicationUrl": "http://localhost:5005",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5233",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -14,8 +14,8 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": false,
-      "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7117",
+      "launchUrl": "graphql",
+      "applicationUrl": "https://localhost:7233",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

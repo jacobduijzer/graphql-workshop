@@ -22,6 +22,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChipsFlicks.Reviews.Api", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChipsFlicks.Bookings.Api", "src\ChipsFlicks.Bookings.Api\ChipsFlicks.Bookings.Api.csproj", "{0042DE38-FDF1-4B63-B4CD-0EAF4110CDAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChipsFlicks.Theaters.Api", "src\ChipsFlicks.Theaters.Api\ChipsFlicks.Theaters.Api.csproj", "{F5AB6C31-EBA8-4D2F-A484-5923B538F322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChipsFlicks.Gateway", "src\ChipsFlicks.Gateway\ChipsFlicks.Gateway.csproj", "{B6D574D9-74D4-4B37-AB92-BA51D10D62AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,5 +63,13 @@ Global
 		{0042DE38-FDF1-4B63-B4CD-0EAF4110CDAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0042DE38-FDF1-4B63-B4CD-0EAF4110CDAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0042DE38-FDF1-4B63-B4CD-0EAF4110CDAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5AB6C31-EBA8-4D2F-A484-5923B538F322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AB6C31-EBA8-4D2F-A484-5923B538F322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5AB6C31-EBA8-4D2F-A484-5923B538F322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AB6C31-EBA8-4D2F-A484-5923B538F322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D574D9-74D4-4B37-AB92-BA51D10D62AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D574D9-74D4-4B37-AB92-BA51D10D62AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D574D9-74D4-4B37-AB92-BA51D10D62AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D574D9-74D4-4B37-AB92-BA51D10D62AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

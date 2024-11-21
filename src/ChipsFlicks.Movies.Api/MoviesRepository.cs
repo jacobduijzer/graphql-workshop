@@ -4,7 +4,7 @@ namespace ChipsFlicks.Movies.Api;
 
 public class MoviesRepository
 {
-    private IEnumerable<Movie> _movies;
+    private readonly IEnumerable<Movie> _movies;
 
     public MoviesRepository()
     {

@@ -9,10 +9,15 @@ var reviews = builder.AddProject<Projects.ChipsFlicks_Reviews_Api>("reviews")
 var bookings = builder.AddProject<Projects.ChipsFlicks_Bookings_Api>("bookings")
     .WithReference(redis)
     .WaitFor(redis);
-builder.AddProject<Projects.ChipsFlicks_Hub_Api>("hub")
+var theaters = builder.AddProject<Projects.ChipsFlicks_Theaters_Api>("theaters");
+var hub = builder.AddProject<Projects.ChipsFlicks_Hub_Api>("hub")
     .WithReference(movies)
     .WithReference(snacks)
     .WithReference(reviews)
     .WithReference(bookings);
+
+builder.AddProject<Projects.ChipsFlicks_Gateway>("gateway")
+    .WithReference(hub)
+    .WithReference(theaters);
 
 builder.Build().Run();

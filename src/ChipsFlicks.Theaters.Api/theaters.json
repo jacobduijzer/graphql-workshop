@@ -1,0 +1,27 @@
+﻿[
+  {
+    "name": "Grand Cinema",
+    "city": "New York",
+    "openingHours": "10:00 AM - 11:00 PM"
+  },
+  {
+    "name": "Sunset Theater",
+    "city": "Los Angeles",
+    "openingHours": "11:00 AM - 12:00 AM"
+  },
+  {
+    "name": "Downtown Movies",
+    "city": "Chicago",
+    "openingHours": "9:00 AM - 10:00 PM"
+  },
+  {
+    "name": "Cineplex 21",
+    "city": "Houston",
+    "openingHours": "10:00 AM - 11:00 PM"
+  },
+  {
+    "name": "Star Cinema",
+    "city": "Phoenix",
+    "openingHours": "11:00 AM - 12:00 AM"
+  }
+]

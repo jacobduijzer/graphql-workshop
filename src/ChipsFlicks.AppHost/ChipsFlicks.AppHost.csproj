@@ -14,9 +14,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ChipsFlicks.Bookings.Api\ChipsFlicks.Bookings.Api.csproj" />
+    <ProjectReference Include="..\ChipsFlicks.Gateway\ChipsFlicks.Gateway.csproj" />
     <ProjectReference Include="..\ChipsFlicks.Hub.Api\ChipsFlicks.Hub.Api.csproj" />
     <ProjectReference Include="..\ChipsFlicks.Movies.Api\ChipsFlicks.Movies.Api.csproj" />
     <ProjectReference Include="..\ChipsFlicks.Reviews.Api\ChipsFlicks.Reviews.Api.csproj" />
     <ProjectReference Include="..\ChipsFlicks.Snacks.Api\ChipsFlicks.Snacks.Api.csproj" />
+    <ProjectReference Include="..\ChipsFlicks.Theaters.Api\ChipsFlicks.Theaters.Api.csproj" />
   </ItemGroup>
 </Project>
